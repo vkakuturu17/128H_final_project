@@ -3,9 +3,9 @@
 Group Members: Vaasu Kakuturu (vk29), Anuj Singla (anujs3), Sahan Yalavarthi (sahansy2)
 
 ## Project Introduction:
-For our project, we are aiming to implement our own version of decision tree machine laerning. We wanted to work on this project in order to get a more in depth understanding of how decision trees work and how they can be optimized to run most efficiently by using Rust. Our goal is to have a working model by the end of the semester that can accurately classify various types of inputted data.
+For our project, we have pivoted to focusing on an implementation of Dijkstra's algorithm, which finds the shortest path between nodes of a weighted graph. We are deciding to do this project because this is a very fundamental algorithm that we know will be taught in future courses, so we wanted to get a head start on understanding it.
 
-## Technical Overview:
+## Technical Overview: (these checkpoints are no longer accurate because we recently re-pivoted on our project idea)
 ### Checkpoint 1:
 Develop an algorithm/function that splits the dataset and calculates information gain using entropy or the Gini Index.
 ### Checkpoint 2:
@@ -14,4 +14,4 @@ Implement the decision tree itself by using the algorithm created in checkpoint 
 Test the model with predefined datasets by checking to see how accurate its predictions are.
 
 ## Possible Challenges:
-Some possible challenges we may encounter are our model overfitting the data leading to inaccurate predictions. Furthermore, as this is a complex project, we may get stuck while figuring out the best practice ways of implementing the model.
+Some possible challenges we may encounter are some of the ownership limitations in Rust, as we have previously implemented this algorithm in other languages, but never in a language as challening as Rust.
